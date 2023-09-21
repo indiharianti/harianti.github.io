@@ -6,6 +6,9 @@
     <title>Fortfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--stylecss-->
     <link rel="stylesheet" href="style.css"/>
     <!--akhircss-->
@@ -39,9 +42,9 @@
 
     <!--jumbotron-->
     <section class="jumbotron text-center">
-        <img src="img/icon.jpg" alt="Indi" width="200" class="rounded-circle"  img-thumbnail/>
+        <img src="img/icon.jpg" alt="Indi" width="200" class="rounded-circle"  img-thumbnail />
         <h1 class="display-4">Indi Harianti</h1>
-        <p class="lead">SISWA|SMK 7 PEKANBARU</p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,96L10.4,96C20.9,96,42,96,63,128C83.5,160,104,224,125,229.3C146.1,235,167,181,188,144C208.7,107,230,85,250,106.7C271.3,128,292,192,313,202.7C333.9,213,355,171,376,149.3C396.5,128,417,128,438,138.7C459.1,149,480,171,501,192C521.7,213,543,235,563,245.3C584.3,256,605,256,626,261.3C647,267,668,277,689,282.7C709.6,288,730,288,751,240C772.2,192,793,96,814,64C834.8,32,856,64,877,80C897.4,96,918,96,939,96C960,96,981,96,1002,106.7C1022.6,117,1043,139,1064,144C1085.2,149,1106,139,1127,154.7C1147.8,171,1169,213,1190,197.3C1210.4,181,1231,107,1252,74.7C1273,43,1294,53,1315,48C1335.7,43,1357,21,1377,10.7C1398.3,0,1419,0,1430,0L1440,0L1440,320L1429.6,320C1419.1,320,1398,320,1377,320C1356.5,320,1336,320,1315,320C1293.9,320,1273,320,1252,320C1231.3,320,1210,320,1190,320C1168.7,320,1148,320,1127,320C1106.1,320,1085,320,1064,320C1043.5,320,1023,320,1002,320C980.9,320,960,320,939,320C918.3,320,897,320,877,320C855.7,320,835,320,814,320C793,320,772,320,751,320C730.4,320,710,320,689,320C667.8,320,647,320,626,320C605.2,320,584,320,563,320C542.6,320,522,320,501,320C480,320,459,320,438,320C417.4,320,397,320,376,320C354.8,320,334,320,313,320C292.2,320,271,320,250,320C229.6,320,209,320,188,320C167,320,146,320,125,320C104.3,320,83,320,63,320C41.7,320,21,320,10,320L0,320Z"></path></svg>
 
     </section>
@@ -49,7 +52,7 @@
     
     <!--about-->
     <section id="about">
-        <div class="container ">
+        <div class="container" data-aos="fade-down" data-aos-duration="2000" >
             <div class="row text-center mb-3">
                 <div class="col">
                     <h2>About Me</h2>
@@ -78,7 +81,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/1.jpg"class="card-img-top" alt="project">
               <div class="card-body">
                 <p class="card-text">Membuat aplikasi kasir penjualan.</p>
@@ -86,7 +89,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="img/2.jpg" class="card-img-top" alt="project">
               <div class="card-body">
                 <p class="card-text">Membuat aplikasi kalkulator di android studio.</p>
@@ -94,7 +97,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/3.jpg" class="card-img-top" alt="project">
               <div class="card-body">
                 <p class="card-text">Membuat aplikasi tanggal di netbeanss.</p>
@@ -107,6 +110,59 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,224L21.8,234.7C43.6,245,87,267,131,266.7C174.5,267,218,245,262,229.3C305.5,213,349,203,393,186.7C436.4,171,480,149,524,154.7C567.3,160,611,192,655,213.3C698.2,235,742,245,785,261.3C829.1,277,873,299,916,277.3C960,256,1004,192,1047,165.3C1090.9,139,1135,149,1178,160C1221.8,171,1265,181,1309,186.7C1352.7,192,1396,192,1418,192L1440,192L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
     </section>
     <!--akhirprojects-->
+    
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">  
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/gambar1.jpg" alt="gambar 1" class="img-fluid 
+              gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/gambar1.jpg" alt="gambar 1" class="img-fluid
+              gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/gambar1.jpg" alt="gambar 1" class="img-fluid
+              gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/gambar1.jpg" alt="gambar 1" class="img-fluid
+              gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/gambar1.jpg" alt="gambar 1" class="img-fluid
+              gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/gambar1.jpg" alt="gambar 1" class="img-fluid
+              gallery-img" />
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+    <!-- Akhir Gallery -->
 
 
     <!--contact-->
@@ -163,8 +219,33 @@
      <!--akhirfooter-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbztHjmhyI86rYpVv6CtfS9ehLJU0-QbBUA1JTdLwo8HWwNCjpCXSYS8-3iS74ward7P6Q/exec';
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+      AOS.init({
+        once: true,
+        duration: 100,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Siswa | SMKN 7'})
+      gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from('.navbar', { duration: 1.5, y: '-100', opacity: 0, ease: 'bounce' });
+      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease:'back' });
+    </script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxQivBLBeROPBZvRZm046zsQcHKZIl1-Wey8WEqwbOX2tm2caz_jHl922COXgbWAQPpeA/exec';
       const form = document.forms['indi-contact-form'];
       const btnKirim = document.querySelector('.btn-Kirim');
       const btnLoading = document.querySelector('.btn-Loading');
